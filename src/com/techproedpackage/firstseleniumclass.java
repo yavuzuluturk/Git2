@@ -10,7 +10,7 @@ public class firstseleniumclass {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\drivers\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
-
+//      GitHub'dan gelen commit   
         driver.get("https://www.google.de/");
         driver.manage().window().maximize();
     }
